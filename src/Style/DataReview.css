@@ -1,0 +1,23 @@
+.data-div{
+    border: 2px solid var(--borders-color);
+    background-color: #fefbf4;
+    border-radius: 0.375rem;
+    -webkit-border-radius: 0.375rem;
+    -moz-border-radius: 0.375rem;
+    -ms-border-radius: 0.375rem;
+    -o-border-radius: 0.375rem;
+}
+
+.data-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-property{
+    color: var(--light-grey);
+}
+
+.data-value{
+    color: var(--font-color);
+    font-weight: bold;
+}

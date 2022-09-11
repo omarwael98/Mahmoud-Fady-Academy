@@ -1,0 +1,13 @@
+.time-div{
+    width: 90px;
+    height: 90px;
+}
+
+.change-day-btn{
+    border:none;
+    color:var(--brown);
+    font-weight: 500;
+    background-color: transparent;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}

@@ -1,0 +1,26 @@
+.place-div{
+    width: 100%;
+    max-width: 370px;
+    max-height: 180px;
+    color: var(--brown);
+}
+
+.place-div img{
+    width: 80px;
+}
+
+.price-div{
+    background-color: var(--brown);
+    color: white;
+    padding: 0.5% 2.5%;
+    margin: 2%;
+    border-radius: 0.375rem;
+    -webkit-border-radius: 0.375rem;
+    -moz-border-radius: 0.375rem;
+    -ms-border-radius: 0.375rem;
+    -o-border-radius: 0.375rem;
+}
+
+.home-icon{
+    font-size: 52px;
+}

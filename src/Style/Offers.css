@@ -1,0 +1,14 @@
+.offers-div{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 10%, rgba(0, 0, 0, 0.979)), url('bkbg.jpg');
+    background-size: cover;
+    min-height: 30%;
+    color: #fbffff;
+}
+
+.offer-price{
+    color: #ff6600;
+}
+
+.time-units{
+    word-spacing: 16px;
+}

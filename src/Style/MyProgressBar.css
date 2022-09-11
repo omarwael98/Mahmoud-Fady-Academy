@@ -1,0 +1,21 @@
+.done, .not-done{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 20;
+    height: 20;
+    color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.done{
+    background-color: var(--brown);
+}
+
+.not-done{
+    background-color: grey;
+}
