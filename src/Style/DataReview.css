@@ -20,4 +20,5 @@
 .data-value{
     color: var(--font-color);
     font-weight: bold;
+    text-align: end;
 }

@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 370px;
     max-height: 180px;
-    color: var(--brown);
+    color: var(--main-color);
 }
 
 .place-div img{
@@ -10,7 +10,7 @@
 }
 
 .price-div{
-    background-color: var(--brown);
+    background-color: var(--main-color);
     color: white;
     padding: 0.5% 2.5%;
     margin: 2%;

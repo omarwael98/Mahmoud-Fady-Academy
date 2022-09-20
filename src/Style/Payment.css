@@ -1,11 +1,11 @@
 .price{
-    color: var(--brown);
+    color: var(--main-color);
 }
 
 .my-btn-outline{
     background-color: transparent !important;
-    color: var(--brown) !important;
-    border:1px solid var(--brown);
+    color: var(--main-color) !important;
+    border:1px solid var(--main-color);
     max-width: 500px;
     width: 100%;
     font-weight: 700;

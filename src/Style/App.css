@@ -3,7 +3,7 @@
 }
 
 :root{
-    --brown:#906729;
+    --main-color:#906729;
     --borders-color:#dddcda;
     --font-color: #5f5f66;
     --light-grey: #bdb9b4;
@@ -27,29 +27,44 @@
     font-weight: bold;
 }
 
-.main-color{
-    color: var(--brown);
+.font{
+    color: var(--font-color);
+}
+
+.my-main-color{
+    color: var(--main-color);
+}
+
+.black{
+    color: black;
 }
 
 .Active-btn, .Active-btn:hover{
-    background-color: var(--brown) !important;
+    background-color: var(--main-color) !important;
     color:white !important;
     max-width: 500px;
     width: 100%;
 }
 
-.font{
-    color: var(--font-color);
-}
-
 @keyframes selection {
     from {border: 2px solid var(--borders-color);}
-    to {border: 2px solid var(--brown);}
+    to {border: 2px solid var(--main-color);}
 }
 
 @keyframes unselection {
-    from {border: 2px solid var(--brown);}
+    from {border: 2px solid var(--main-color);}
     to {border: 2px solid var(--borders-color);}
+}
+
+@keyframes appear{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.appearing{
+    animation-name: appear;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 input::placeholder{

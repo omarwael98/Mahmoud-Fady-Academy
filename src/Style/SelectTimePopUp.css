@@ -5,7 +5,7 @@
 
 .change-day-btn{
     border:none;
-    color:var(--brown);
+    color:var(--main-color);
     font-weight: 500;
     background-color: transparent;
     text-decoration-line: underline;
